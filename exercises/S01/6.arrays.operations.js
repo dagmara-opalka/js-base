@@ -13,9 +13,15 @@
 //// TODO:
 // here place your solution:
 
+let array1 = [ 'abc', 'def', 'gh']
+array1.push('xyz') 
+console.log("Arrays element:", array1)
+let newArray = [1, 2, 3]
+let biggerArray = array1.concat(newArray)
+console.log(biggerArray)
 
-
-
+biggerArray[2] = 555
+console.log('biggerArray after change:', biggerArray)
 
 
 

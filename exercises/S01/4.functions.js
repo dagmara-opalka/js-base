@@ -8,18 +8,17 @@
 // to test your solution in terminal You can run following command:
 // npm run es1e4
 
-
 //// TODO:
 // here place your solution:
 
+function threeStrings(value1, value2, value3 = "!") {
+  return value1 + " " + value2 + " " + value3;
+}
+const value1 = "pies";
+const value2 = "kot";
+const result1 = threeStrings("pies", "kot");
 
-
-
-
-
-
-
-
+console.log(threeStrings("pies", "kot"));
 
 //// DONT MODIFY CODE BELOW!
 // Here You will find expected result of exercise

@@ -9,6 +9,13 @@
 
 //// TODO:
 // here place your solution:
+let array1 = [ 'abc', 'def', 'gh']
+console.log("Arrays element:", array1)
+console.log('arrayInArray[2]:', array1[1]) 
+
+
+
+
 
 //// DONT MODIFY CODE BELOW!
 // Here You will find expected result of exercise
