@@ -9,7 +9,12 @@
 //// TODO:
 // here place your solution:
 
+
 function elementChecker(anArray) {
+    anArray.forEach(function(element){
+console.log(element)
+
+    })
 
 }
 
