@@ -14,8 +14,21 @@
 // here place your solution:
 
 
+const testUser = {
+    name: 'Dale Cooper',
+    adress: '40 Street Utah',
+    password: 'monkey123',
+    height: 182,
+    rights: ["write", "read"]
+}
 
+console.log(testUser)
 
+console.log(testUser.name);
+
+testUser.name = "admin";
+
+console.log(testUser.name);
 
 //// DONT MODIFY CODE BELOW!
 // Here You will find expected result of exercise

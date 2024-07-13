@@ -18,13 +18,27 @@
 //// TODO:
 // here place your solution:
 
-function printPlayersState(health) {
 
+function printPlayersState( health) {
+    if (health >= 100) {
+        console.log('Player is alive and at full health!')
+      } else if (health >= 10 && health < 99) {
+        console.log('Player is alive and at ok health')
+      } else if ( health >= 1 && health < 10){
+        console.log('Player is alive and at very poor health!')
+      } else if (health < 1)
+      console.log('Player is dead.')
 }
 
+console.log(printPlayersState(100))
 
+console.log(printPlayersState(60))
 
+console.log(printPlayersState(0))
 
+console.log(printPlayersState(5))
+
+console.log(printPlayersState(-1))
 //// DONT MODIFY CODE BELOW!
 // Here You will find expected result of exercise and verification!
 
