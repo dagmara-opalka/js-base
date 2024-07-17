@@ -18,7 +18,32 @@
 //// TODO:
 // here place your solution:
 
-
+class Human {
+    // Properties with default values
+    name = "Unknown";
+    age = 0;
+  
+    // Constructor to set the name
+    constructor(name) {
+      this.name = name;
+    }
+  
+    // Method to increase the age by 1
+    increaseAge() {
+      this.age += 1;
+    }
+  
+    // Method to introduce the human
+    introduce() {
+      console.log(`Hi, my name is ${this.name} and my age is ${this.age}.`);
+    }
+  }
+  
+  // Test the code
+  const humanInstance = new Human("Bob");
+  humanInstance.increaseAge();
+  humanInstance.increaseAge();
+  humanInstance.introduce();
 
 
 
