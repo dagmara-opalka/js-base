@@ -11,11 +11,13 @@
 // here place your solution:
 
 
+import { getUserListFromApi } from './4.async.helpers.js';
 
-
-
-
-
+getUserListFromApi().then(userList => {
+    console.log(userList[0]);
+}).catch(error => {
+    console.error("Error fetching user list:", error);
+})
 
 
 

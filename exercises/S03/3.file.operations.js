@@ -12,14 +12,14 @@
 // here place your solution:
 
 
+import { writeFileSync, readFileSync } from 'fs'; 
+
+writeFileSync('ex3.txt', 'Hello jaktestowac.pl!');
+
+const content = readFileSync('ex3.txt', 'utf-8');
 
 
-
-
-
-
-
-
+console.log(content);
 
 
 
